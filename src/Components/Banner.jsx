@@ -15,7 +15,7 @@ const Banner = () => {
                     dynamicBullets: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper md:h-screen"
+                    className="mySwiper "
                     autoplay={{ delay: 1000}}
                 >
                     <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
