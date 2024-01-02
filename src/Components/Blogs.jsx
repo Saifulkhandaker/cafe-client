@@ -4,7 +4,7 @@ import blog3 from '../assets/Images/Blogs/blog3.jpg'
 
 const Blogs = () => {
     return (
-        <div className="my-20 bg-[#E9E8E4]">
+        <div className="mt-20 bg-[#E9E8E4]">
             <div className="py-20 md:py-28">
                 {/* Header section */}
                 <div className="text-center">
