@@ -1,10 +1,21 @@
 import Swal from 'sweetalert2';
 import 'sweetalert2/src/sweetalert2.scss'
+import { IoIosArrowDropupCircle } from "react-icons/io";
 import footerbg from '../../assets/Images/Others/footerbg.jpg'
 
 
 const Footer = () => {
 
+    // handle scrool button
+        const scrollToTop = () => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Add smooth scrolling behavior
+          });
+        };
+
+
+    // handle subs
     const hanldesubscribe = (e) => {
         e.preventDefault()
         Swal.fire("Subscribed Sucessfully!🎊");
@@ -25,7 +36,7 @@ const Footer = () => {
                             <input className="w-full flex-1 border rounded-full py-5 px-5 text-xl text-black" required type="text" placeholder="Name" />
                                 <div className='md:mt-0 mt-2'>
                                     <input className=" border rounded-full rounded-r-none py-5 px-5 text-xl text-black" required type="email" placeholder="Email" />
-                                    <input className='border rounded-full rounded-l-none py-5 px-5 text-xl font-bold bg-[#C8A077]' type='submit' placeholder='SUBSCRIBE'/>
+                                    <input className='border rounded-full rounded-l-none py-5 px-5 text-xl font-bold bg-[#C8A077]' type='submit' placeholder='SUBSCRIBE' SUbmi/>
                                 </div>
                          </form>
                     
@@ -50,7 +61,10 @@ const Footer = () => {
                     <p className="text-lg font-medium">Fax. +61 8790 1703</p>
                 </div>
             </div>
-            <p className='w-[80%] mx-auto text-center mt-0 text-white text-sm border-t py-2'>© 2024 nyabiss.com. All right reserved</p>
+            <div className='w-[80%] mx-auto border-t py-2 flex justify-between'>
+                <p className=' text-center mt-0 text-white text- '>© 2024 nyabiss.com. All right reserved</p>
+                <button onClick={scrollToTop} className=''><IoIosArrowDropupCircle  className='text-white text-5xl '/></button>
+                </div>
             </div>
             
             
