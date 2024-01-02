@@ -42,9 +42,9 @@ const ChoseUs = () => {
                     <a href="https://www.youtube.com/watch?v=rVvupjCcYZo" target="_blank"><button className="flex items-center font-bold gap-4 text-center mt-3 lg:mt-0 "><IoIosVideocam className="bg-[#C8A077] rounded-full text-6xl p-2"/> WATCH OUR VIDEO</button></a>
                 </div>
                 {/* img part */}
-                <div className="flex gap-2 md:gap-5 mt-5 lg:mt-0"> 
-                    <img className="w-[188px] md:w-[342px] lg:w-[380px]" src={choose1} alt="" />
-                    <img className="w-[188px] md:w-[342px] lg:w-[380px]" src={choose2} alt="" />
+                <div className="flex flex-row items-center  gap-2 md:gap-3 mt-5 lg:mt-0"> 
+                    <img className="w-[188px] md:w-[342px] lg:w-[380px] lg:h-fit" src={choose1} alt="" />
+                    <img className="w-[188px] md:w-[342px] lg:w-[380px] lg:h-fit" src={choose2} alt="" />
                 </div>
             </div>
         </div>

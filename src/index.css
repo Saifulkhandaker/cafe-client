@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* shared font */
+.shared{
+    font-family: 'Permanent Marker', cursive;
+}
