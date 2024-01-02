@@ -38,7 +38,7 @@ const Navbar = () => {
                             <div className="badge badge-secondary">+0</div>
                         </button>
                     </Link>
-                    <Link to="/login"><button className="text-[16px] text-white rounded-lg bg-[#B78D62] border-none  font-medium rounded-sm border btn">Login</button></Link>
+                    <Link to="/login"><button className="text-[16px] text-white rounded-lg bg-[#B78D62] border-none  font-medium  border btn">Login</button></Link>
                 </div>
             </div>
         </div>
