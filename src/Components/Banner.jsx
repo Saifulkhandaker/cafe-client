@@ -17,6 +17,7 @@ const Banner = () => {
                     modules={[Pagination]}
                     className="mySwiper "
                     autoplay={{ delay: 1000}}
+                    data-aos="zoom-out" data-aos-duration="2000"
                 >
                     <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={banner2} alt="" /></SwiperSlide>
@@ -24,7 +25,7 @@ const Banner = () => {
                 </Swiper>
             
                 {/* text section */}
-            <div className='w-[80%] mx-auto text-white text-center space-y-3 absolute inset-0 z-10 flex flex-col justify-center items-center '>
+            <div className='w-[80%] mx-auto text-white text-center space-y-3 absolute inset-0 z-10 flex flex-col justify-center items-center ' data-aos="zoom-in" data-aos-duration="2000">
                 <h1 className='text-2xl lg:text-7xl '>Coffee is all about <br />
                 <span className='font-bold'>People, Care & Passion</span></h1>
                 <p className='text-sm lg:text-lg'>From this Assembly Line, Hitek has been producing more than 1000 machines & <br />equipments and continuously manufactures high quality product to meet our various customer needs.</p>

@@ -24,8 +24,8 @@ const Footer = () => {
     }
 
     return (
-        <div style={{ backgroundImage: `url(${footerbg})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 10 }} className="">
-            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10'>
+        <div style={{ backgroundImage: `url(${footerbg})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 10 }}>
+            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10' data-aos="fade-down" data-aos-duration="2000">
                 {/* newlater section */}
             <div className="text-center space-y-3 text-white">
                 <h1 className="text-5xl font-bold">Join our Newsletter</h1>
@@ -66,8 +66,6 @@ const Footer = () => {
                 <button onClick={scrollToTop} className=''><IoIosArrowDropupCircle  className='text-white text-5xl '/></button>
                 </div>
             </div>
-            
-            
         </div>
     );
 };
