@@ -17,7 +17,6 @@ const Banner = () => {
                     modules={[Pagination]}
                     className="mySwiper "
                     autoplay={{ delay: 1000}}
-                    data-aos="zoom-out" data-aos-duration="2000"
                 >
                     <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={banner2} alt="" /></SwiperSlide>
