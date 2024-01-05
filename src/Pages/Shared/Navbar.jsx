@@ -12,7 +12,7 @@ const Navbar = () => {
             <li><NavLink className="text-[16px] font-medium rounded-sm " to="/contactUs">Contact Us</NavLink></li>
         </>
     return (
-        <div className="text-white border-b lg:fixed lg:z-20 w-full" >
+        <div className="text-white border-b lg:z-20 w-full" >
             <div className="navbar bg-[#3D291C]">
                 <div className="navbar-start z-30 ">
                     <div className="dropdown ">

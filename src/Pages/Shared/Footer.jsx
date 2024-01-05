@@ -25,7 +25,7 @@ const Footer = () => {
 
     return (
         <div style={{ backgroundImage: `url(${footerbg})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 10 }}>
-            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10' data-aos="fade-down" data-aos-duration="2000">
+            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10' data-aos="fade-up" data-aos-duration="2000">
                 {/* newlater section */}
             <div className="text-center space-y-3 text-white">
                 <h1 className="text-5xl font-bold">Join our Newsletter</h1>
