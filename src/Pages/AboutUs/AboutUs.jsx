@@ -19,13 +19,13 @@ const AboutUs = () => {
             {/* page content */}
             <div>
                 {/* History part */}
-                <div className='lg:flex gap-6 items-center py-20 px-10 md:px-20 bg-[#101010]'>
+                <div className='lg:flex gap-6 items-center py-20 px-10 md:px-20 bg-[#101010] overflow-x-hidden'>
                     {/* img part */}
-                    <div className='lg:w-[500px]'>
+                    <div className='lg:w-[500px]' data-aos="fade-right" data-aos-duration="2000">
                         <img src={about1} alt="" />
                     </div>
                     {/* content part */}
-                    <div className='flex-1 space-y-8 mt-5 lg:mt-0'>
+                    <div className='flex-1 space-y-8 mt-5 lg:mt-0' data-aos="fade-left" data-aos-duration="2000">
                         <h3 className='text-2xl font-bold text-[#C8A077]'>Our History</h3>
                         <h1 className='text-5xl font-bold text-white'>The First Coffee House in Small Town</h1>
                         <p className='text-xl text-[#999999]'>Nowadays, Talking about a tangkopi coffee house brings to mind a cozy place that serves coffee and espresso drinks, with seat to lounge in while you slurp. Do you know how the Dement coffee house get its start? The history of the Dement coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Tangkopi was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too. </p>
@@ -36,13 +36,13 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* Service part */}
-                <div className='lg:flex flex-row-reverse gap-10 items-center py-32 px-10 md:px-20'>
+                <div className='lg:flex flex-row-reverse gap-10 items-center py-32 px-10 md:px-20 overflow-x-hidden'>
                     {/* img part */}
-                    <div className='lg:w-[500px]'>
+                    <div className='lg:w-[500px]' data-aos="fade-left" data-aos-duration="2000">
                         <img src={about2} alt="" />
                     </div>
                     {/* content part */}
-                    <div className='flex-1 space-y-8 mt-5 lg:mt-0'>
+                    <div className='flex-1 space-y-8 mt-5 lg:mt-0' data-aos="fade-right" data-aos-duration="2000">
                         <h3 className='text-2xl font-bold text-[#C8A077]'>A Sequence of Our Journey</h3>
                         <h1 className='text-4xl lg:text-6xl font-bold text-[#111111]'>Almost 20 Years Serves Coffee With More Than 8,000 Locations</h1>
                         {/* Accordion */}
@@ -83,7 +83,7 @@ const AboutUs = () => {
                         </div>
                         </div>
                         
-                        <div className='pt-8 md:pt-10 space-y-2'>
+                        <div className='pt-8 md:pt-10 space-y-2' data-aos="fade-up" data-aos-duration="2000">
                             <h3 className='text-xl font-bold text-[#AAAAAA]'>O U R _ A W A R D S</h3>
                             <img src={award} alt="" />
                         </div>
@@ -91,9 +91,9 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* team part */}
-                <div className='lg:flex gap-10 items-center py-32 px-10 md:px-20 bg-[#F4F4F4]'>
+                <div className='lg:flex gap-10 items-center py-32 px-10 md:px-20 bg-[#F4F4F4] overflow-x-hidden'>
                     {/* img part */}
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2' data-aos="fade-up" data-aos-duration="2000">
                         <div className='text-center'>
                             <img className='w-44' src={team1} alt="" />
                             <h2 className='md:text-3xl font-bold mt-5'>John Deb</h2>
@@ -111,7 +111,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     {/* content part */}
-                    <div className='flex-1 space-y-5 mt-5 lg:mt-0'>
+                    <div className='flex-1 space-y-5 mt-5 lg:mt-0' data-aos="fade-down" data-aos-duration="2000">
                         <h3 className='text-2xl font-bold text-[#C8A077]'>Our Team</h3>
                         <h1 className='text-4xl lg:text-6xl font-bold'>Our Loyal Barista in <br />Years</h1>
                         <p className='text-xl text-[#999999]'>The history of the tangkopi coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Dement was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too.  </p>
