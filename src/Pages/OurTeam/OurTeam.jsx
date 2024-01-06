@@ -1,6 +1,7 @@
 import coverimg from '../../assets/Images/Others/cover.jpg';
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
+import { useRef } from 'react';
 import Cover from '../Shared/Cover';
 import team1 from '../../assets/Images/Team/team1.jpg'
 import team2 from '../../assets/Images/Team/team2.jpg'
@@ -8,8 +9,30 @@ import team3 from '../../assets/Images/Team/team3.jpg'
 import team4 from '../../assets/Images/Team/team4.jpg'
 import team5 from '../../assets/Images/Team/team5.jpg'
 import team6 from '../../assets/Images/Team/team6.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const OurTeam = () => {
+
+    const formRef = useRef();
+
+    const handleform = (e) => {
+        e.preventDefault();
+        toast.success(' Successfully Submitted...!', {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+            formRef.current.reset();
+
+    } 
+
     return (
         <div>
             <Helmet>
@@ -87,7 +110,7 @@ const OurTeam = () => {
                     </div>
                     <div className='flex-1 w-full'>
                         <h3 className='text-3xl font-bold text-[#3B3B3B] lg:text-center pb-10 mt-10 lg:mt-0'>Fill This Form</h3>
-                        <form className='space-y-2 border-2 border-[#f0f0f0] px-5 py-5'>
+                        <form onSubmit={handleform} ref={formRef} className='space-y-2 border-2 border-[#f0f0f0] px-5 py-5'>
                                 <input type="text" placeholder="Your Name" required className="text-[#474747] input input-bordered w-full" />
                                 <input type="number" placeholder="Phone Number" required className="text-[#474747] input input-bordered w-full" />
                                 <input type="text" placeholder="Address" required className="text-[#474747] input input-bordered w-full" />
@@ -98,12 +121,25 @@ const OurTeam = () => {
                                     <option>Director</option>
                                 </select>
                                 <input type="email" placeholder="Your Email" required className="text-[#474747] input input-bordered w-full" />
-                                <input type="submit" value="SEND" className="text-white text-lg font-bold bg-[#C8A077] input input-bordered w-full" />
+                                <input type="submit" value="SUBMIT" className="text-white text-lg font-bold bg-[#C8A077] input input-bordered w-full" />
                         </form>
 
                     </div>
                 </div>
             </div>
+            <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            theme="light"
+            />
+            {/* Same as */}
+            <ToastContainer />
         </div>
     );
 };
