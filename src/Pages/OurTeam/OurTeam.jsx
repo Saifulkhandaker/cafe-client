@@ -1,4 +1,5 @@
 import coverimg from '../../assets/Images/Others/cover.jpg';
+import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 import Cover from '../Shared/Cover';
 import team1 from '../../assets/Images/Team/team1.jpg'
@@ -25,7 +26,8 @@ const OurTeam = () => {
                     <h3 className='text-2xl text-[#3B3B3B] font-medium leading-relaxed'>Our team members work collaboratively to ensure guests have a comfortable stay. From front desk staff to housekeeping and catering, each member contributes to exceptional hospitality and memorable experiences.</h3>
                 </div>
             </div>
-            <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            {/* member parts */}
+            <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-20'>
                 {/* card 1 */}
                 <div className="card card-compact  bg-base-100 shadow-xl">
                     <figure><img src={team1} alt="Team" /></figure>
@@ -72,6 +74,33 @@ const OurTeam = () => {
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Clerence Bon</h2>
                         <p className='text-2xl'>Head Cheaf</p>
+                    </div>
+                </div>
+            </div>
+            {/* Join Us */}
+            <div className='bg-[#E3E4E8] '>
+                <div className='w-[90%] mx-auto py-20 lg:flex justify-between items-center'>
+                    <div className='flex-1 space-y-5'>
+                        <h3 className='text-3xl font-bold text-[#C8A077]'>Let's Grow Together</h3>
+                        <h1 className='text-3xl lg:text-5xl font-bold text-[#111111] leading-relaxed'>Are you in need of a job? <br /> We always welcomes you</h1>
+                        <button className='flex items-center gap-3 text-2xl font-bold text-white py-3 px-5 border rounded-full bg-[#C8A077]'>Join Us <FaArrowAltCircleRight /> </button>
+                    </div>
+                    <div className='flex-1 w-full'>
+                        <h3 className='text-3xl font-bold text-[#3B3B3B] lg:text-center pb-10 mt-10 lg:mt-0'>Fill This Form</h3>
+                        <form className='space-y-2 border-2 border-[#f0f0f0] px-5 py-5'>
+                                <input type="text" placeholder="Your Name" required className="text-[#474747] input input-bordered w-full" />
+                                <input type="number" placeholder="Phone Number" required className="text-[#474747] input input-bordered w-full" />
+                                <input type="text" placeholder="Address" required className="text-[#474747] input input-bordered w-full" />
+                                <select
+                                    name="priority" placeholder="Looking Position" required className="text-[#474747] select select-bordered w-full ">
+                                    <option>Cheaf</option>
+                                    <option>Waiter</option>
+                                    <option>Director</option>
+                                </select>
+                                <input type="email" placeholder="Your Email" required className="text-[#474747] input input-bordered w-full" />
+                                <input type="submit" value="SEND" className="text-white text-lg font-bold bg-[#C8A077] input input-bordered w-full" />
+                        </form>
+
                     </div>
                 </div>
             </div>
