@@ -28,7 +28,7 @@ const AboutUs = () => {
                     <div className='flex-1 space-y-8 mt-5 lg:mt-0' data-aos="fade-left" data-aos-duration="2000">
                         <h3 className='text-2xl font-bold text-[#C8A077]'>Our History</h3>
                         <h1 className='text-5xl font-bold text-white'>The First Coffee House in Small Town</h1>
-                        <p className='text-xl text-[#999999]'>Nowadays, Talking about a tangkopi coffee house brings to mind a cozy place that serves coffee and espresso drinks, with seat to lounge in while you slurp. Do you know how the Dement coffee house get its start? The history of the Dement coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Tangkopi was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too. </p>
+                        <p className='text-xl text-[#999999] leading-relaxed'>Nowadays, Talking about a tangkopi coffee house brings to mind a cozy place that serves coffee and espresso drinks, with seat to lounge in while you slurp. Do you know how the Dement coffee house get its start? The history of the Dement coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Tangkopi was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too. </p>
                         <div className='space-y-2'>
                             <h1 className='text-5xl font-bold text-[#C8A077]'>20+</h1>
                             <p className='text-xl font-bold text-white'>Years of <br /> Experience</p>
@@ -114,7 +114,7 @@ const AboutUs = () => {
                     <div className='flex-1 space-y-5 mt-5 lg:mt-0' data-aos="fade-down" data-aos-duration="2000">
                         <h3 className='text-2xl font-bold text-[#C8A077]'>Our Team</h3>
                         <h1 className='text-4xl lg:text-6xl font-bold'>Our Loyal Barista in <br />Years</h1>
-                        <p className='text-xl text-[#999999]'>The history of the tangkopi coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Dement was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too.  </p>
+                        <p className='text-xl text-[#999999] leading-relaxed'>The history of the tangkopi coffee house begins hundreds of years ago and certainly has changed over the years. Our Coffee in Dement was served unfiltered, black and strong, usually used ibrik as a brewery. We took coffee very seriously, too.  </p>
                         <div>
                             <Link to="/ourTeam">
                                 <button className='text-lg font-bold text-white bg-[#C8A077] py-5 px-4 rounded-full'>FIND YOUR FAVOURITE BARISTA</button>
