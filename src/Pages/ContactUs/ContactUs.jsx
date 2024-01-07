@@ -1,5 +1,6 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
+import Cover from '../Shared/Cover';
+import coverimg from '../../assets/Images/Others/cover.jpg';
 
 const ContactUs = () => {
     return (
@@ -7,7 +8,7 @@ const ContactUs = () => {
             <Helmet>
                 <title>NyaBiss | Contact</title>
             </Helmet>
-            Contact Us plz..
+            <Cover img={coverimg} title={"Contact Us"}></Cover>
         </div>
     );
 };
