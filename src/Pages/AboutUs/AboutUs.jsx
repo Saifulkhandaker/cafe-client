@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import Cover from '../Shared/Cover';
-import coverimg from '../../assets/Images/Others/cover.jpg'
+import coverimg from '../../assets/Images/Others/About Us.jpg'
 import about1 from '../../assets/Images/About/about-1.jpg'
 import about2 from '../../assets/Images/About/about-2.jpg'
 import award from '../../assets/Images/About/awards-example.jpg'

@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import Cover from '../Shared/Cover';
-import coverimg from '../../assets/Images/Others/cover.jpg';
+import coverimg from '../../assets/Images/Others/Contact Us.jpg';
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { MdAccessTimeFilled } from "react-icons/md";

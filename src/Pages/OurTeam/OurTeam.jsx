@@ -1,4 +1,4 @@
-import coverimg from '../../assets/Images/Others/cover.jpg';
+import coverimg from '../../assets/Images/Others/Our Team.jpg'
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 import { useRef } from 'react';

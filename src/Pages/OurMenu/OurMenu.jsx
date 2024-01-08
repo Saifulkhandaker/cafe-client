@@ -1,5 +1,6 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
+import Cover from '../Shared/Cover';
+import menucover from '../../assets/Images/Others/Menu Cover.jpg'
 
 const OurMenu = () => {
     return (
@@ -7,7 +8,7 @@ const OurMenu = () => {
             <Helmet>
                 <title>NyaBiss | Menu</title>
             </Helmet>
-            This is Menu Page
+            <Cover img={menucover} title={"Our Menu"}></Cover>
         </div>
     );
 };
