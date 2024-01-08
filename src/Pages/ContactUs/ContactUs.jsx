@@ -68,9 +68,11 @@ const ContactUs = () => {
             </div>
             {/* contact form */}
             <div className='flex flex-col justify-center text-center items-center'>
-                <h3 className='text-xl lg:text-2xl font-bold text-[#C8A077] mt-16'>IF YOU HAVE ANY QUESTION</h3>
-                <h1 className='text-4xl lg:text-6xl font-medium text-[#111111]'>Leave us a messages</h1>
-                <form onSubmit={handlesend} ref={formRef} className='w-[70%] lg:w-[60%] mx-auto my-20 border shadow-2xl py-10 px-5 md:px-20'>
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h3 className='text-xl lg:text-2xl font-bold text-[#C8A077] mt-16'>IF YOU HAVE ANY QUESTION</h3>
+                    <h1 className='text-4xl lg:text-6xl font-medium text-[#111111]'>Leave us a messages</h1>
+                </div>
+                <form onSubmit={handlesend} ref={formRef} className='w-[70%] lg:w-[60%] mx-auto my-20 border shadow-2xl py-10 px-5 md:px-20' data-aos="zoom-out" data-aos-duration="2000">
                     <label className="form-control w-full">
                         <div className="label">
                             <span className="label-text text-2xl font-medium text-[#3E3E3E]">Name *</span>
@@ -95,7 +97,7 @@ const ContactUs = () => {
                         </div>
                         <textarea required className="input  border-[#E6E6E6] border-2 w-full h-20 md:h-36 rounded-none" />
                     </label>
-                    <input className='bg-[#1a1919] hover:bg-[#3E3E3E] text-white text-lg font-bold py-6 w-full mt-3 rounded-full' type="submit" value="SEND EMAIL" />
+                    <input className='bg-[#1a1919] hover:bg-[#3E3E3E] text-white text-lg font-bold py-6 w-full mt-3 rounded-full' type="submit" value="SEND EMAIL" data-aos="zoom-in" data-aos-duration="2000" />
                 </form>
             </div>
             <ToastContainer
