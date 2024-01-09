@@ -25,10 +25,10 @@ const Login = () => {
             </Helmet>
             <div className="mt-10 mb-10 text-center items-center">
                 <div className="lg:flex md:justify-center gap-32">
-                <div className='flex flex-col justify-center'>
+                <div className='flex flex-col justify-center' data-aos="zoom-in" data-aos-duration="2000">
                     <img className="lg:h-[70vh]" src={img} alt="" />
                 </div>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="2000">
                     <div className="hero ">
                     <div className="hero-content flex-col border border-[#5AE4A8] py-3 px-5">
                         <div className="text-center lg:text-left">

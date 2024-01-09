@@ -16,7 +16,7 @@ const Register = () => {
             <Helmet>
                 <title>NyaBiss | Register</title>
             </Helmet>
-            <div className="w-11/12 mx-auto  text-center items-center">
+            <div className="w-11/12 mx-auto mb-10 text-center items-center">
                 <div className="lg:flex justify-center items-center gap-14">
                     <div className='flex flex-col justify-center'>
                         <img className="" src={img} alt="" />
