@@ -10,7 +10,7 @@ const Footer = () => {
         const scrollToTop = () => {
           window.scrollTo({
             top: 0,
-            behavior: 'smooth' // Add smooth scrolling behavior
+            behavior: 'smooth'
           });
         };
 
@@ -25,9 +25,9 @@ const Footer = () => {
 
     return (
         <div style={{ backgroundImage: `url(${footerbg})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 10 }}>
-            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10' data-aos="fade-up" data-aos-duration="2000">
+            <div className='pt-28 pb-5 hero-overlay bg-opacity-40 space-y-10'>
                 {/* newlater section */}
-            <div className="text-center space-y-3 text-white">
+            <div className="text-center space-y-3 text-white" data-aos="fade-up" data-aos-duration="2000">
                 <h1 className="text-5xl font-bold">Join our Newsletter</h1>
                 <p className=" lg:text-xl">Join our list and get 20% off your first purchase! Do not worry we don’t spam.</p>
                <div className="md:flex gap-3 justify-center w-[90%] mx-auto pt-10">
@@ -43,7 +43,7 @@ const Footer = () => {
                </div>
             </div>
             {/* address section */}
-            <div className="md:flex justify-center gap-20 mt-10 md:pl-0 pl-10 w-[90%] mx-auto text-white">
+            <div className="md:flex justify-center gap-20 mt-10 md:pl-0 pl-10 w-[90%] mx-auto text-white" data-aos="fade-up" data-aos-duration="2000">
                 <div className="md:text-right">
                     <h3 className="text-2xl font-bold">Our First Shop</h3>
                     <p className="text-lg font-medium">Nyabiss Coffeshop</p>
@@ -63,8 +63,8 @@ const Footer = () => {
             </div>
             <div className='w-[80%] mx-auto border-t py-2 flex justify-between'>
                 <p className=' text-center mt-0 text-white text- '>© 2024 nyabiss.com. All right reserved</p>
-                <button onClick={scrollToTop} className=''><IoIosArrowDropupCircle  className='text-white text-5xl '/></button>
-                </div>
+                <button onClick={scrollToTop}><IoIosArrowDropupCircle  className='text-white text-5xl '/></button>
+            </div>
             </div>
         </div>
     );
