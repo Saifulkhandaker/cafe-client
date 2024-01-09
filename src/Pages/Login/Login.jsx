@@ -65,7 +65,7 @@ const Login = () => {
                             <div className="form-control mt-6">
                             <button className="btn text-xl text-white bg-[#5AE4A8]">Login</button>
                             <p>or sign with <br />
-                                <button onClick={handleGoogle} className="btn w-full text-xl text-white bg-[#5AE4A8]" ><BsGoogle></BsGoogle></button>
+                                <button onClick={handleGoogle} className="btn w-full text-xl text-white bg-[#5AE4A8]"><BsGoogle></BsGoogle></button>
                             </p>
                             </div>
                         </form>

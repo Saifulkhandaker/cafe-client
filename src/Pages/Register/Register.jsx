@@ -18,10 +18,10 @@ const Register = () => {
             </Helmet>
             <div className="w-11/12 mx-auto mb-10 text-center items-center">
                 <div className="lg:flex justify-center items-center gap-14">
-                    <div className='flex flex-col justify-center'>
+                    <div className='flex flex-col justify-center' data-aos="zoom-in" data-aos-duration="2000">
                         <img className="" src={img} alt="" />
                     </div>
-                    <div>
+                    <div data-aos="zoom-in" data-aos-duration="2000">
                     <div className="hero ">
                         <div className="hero-content flex-col border border-[#31CBAF]  py-3 px-5">
                         <div className="text-center lg:text-left">
@@ -78,7 +78,7 @@ const Register = () => {
                                 />
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn text-xl text-white bg-[#31CBAF]">Register</button>
+                                <button className="btn text-xl text-white bg-[#31CBAF]" data-aos="zoom-in" data-aos-duration="2000">Register</button>
                                 
                             </div>
                             </form>
