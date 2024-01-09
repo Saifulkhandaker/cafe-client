@@ -32,7 +32,7 @@ const Login = () => {
                     <div className="hero ">
                     <div className="hero-content flex-col border border-[#5AE4A8] py-3 px-5">
                         <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold text-[#5AE4A8]">Login</h1>
+                        <h1 className="text-5xl font-bold shared text-[#5AE4A8]">Login</h1>
                         </div>
                         <div className="card flex-shrink-0 w-full max-w-sm ">
                         <form onSubmit={handleLogin} className="card-body">
